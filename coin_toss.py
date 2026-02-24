@@ -1,13 +1,22 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Michael Evans
+# DATE: 02/24/2026
+# BRIEF DESCRIPTION:  andomly return Heads or Tails
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
+import random
 
+coin = int(random.randrange(1,100))
+
+print("===== Coin Flipper =====")
+
+if coin > 50 :
+    print("Heads")
+else:
+    print("Tails")
 
 
 
@@ -43,7 +52,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
+The hardest part was remembering to import random
 
 
 
@@ -63,5 +72,5 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[X] I'm solid. Totally got it.
 '''
